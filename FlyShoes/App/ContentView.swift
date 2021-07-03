@@ -29,6 +29,8 @@ struct ContentView: View {
                         FeatureTabView()
                             .frame(height: 250)
                         
+                        CategoryGridView()
+                        
                         FooterView()
                             .padding(.horizontal)
                     }
