@@ -11,6 +11,11 @@
 		920952F42690CBA900BC902B /* CategoryItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920952F32690CBA900BC902B /* CategoryItemView.swift */; };
 		920952F62690CE1E00BC902B /* CategoryGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920952F52690CE1E00BC902B /* CategoryGridView.swift */; };
 		920952F82690D07100BC902B /* SectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920952F72690D07100BC902B /* SectionView.swift */; };
+		920952FA2690D86F00BC902B /* ProductItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920952F92690D86F00BC902B /* ProductItemView.swift */; };
+		920952FC2690D8BD00BC902B /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920952FB2690D8BD00BC902B /* Product.swift */; };
+		920953002690E22E00BC902B /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920952FF2690E22E00BC902B /* TitleView.swift */; };
+		920953022690E76400BC902B /* Brand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920953012690E76400BC902B /* Brand.swift */; };
+		920953042690E7BF00BC902B /* BrandItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920953032690E7BF00BC902B /* BrandItemView.swift */; };
 		929D37D4268FE86C00616D42 /* FlyShoesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929D37D3268FE86C00616D42 /* FlyShoesApp.swift */; };
 		929D37D6268FE86C00616D42 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929D37D5268FE86C00616D42 /* ContentView.swift */; };
 		929D37D8268FE86E00616D42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 929D37D7268FE86E00616D42 /* Assets.xcassets */; };
@@ -34,6 +39,11 @@
 		920952F32690CBA900BC902B /* CategoryItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryItemView.swift; sourceTree = "<group>"; };
 		920952F52690CE1E00BC902B /* CategoryGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryGridView.swift; sourceTree = "<group>"; };
 		920952F72690D07100BC902B /* SectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionView.swift; sourceTree = "<group>"; };
+		920952F92690D86F00BC902B /* ProductItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductItemView.swift; sourceTree = "<group>"; };
+		920952FB2690D8BD00BC902B /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		920952FF2690E22E00BC902B /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
+		920953012690E76400BC902B /* Brand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Brand.swift; sourceTree = "<group>"; };
+		920953032690E7BF00BC902B /* BrandItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandItemView.swift; sourceTree = "<group>"; };
 		929D37D0268FE86C00616D42 /* FlyShoes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlyShoes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		929D37D3268FE86C00616D42 /* FlyShoesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyShoesApp.swift; sourceTree = "<group>"; };
 		929D37D5268FE86C00616D42 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -145,6 +155,9 @@
 				920952F32690CBA900BC902B /* CategoryItemView.swift */,
 				920952F52690CE1E00BC902B /* CategoryGridView.swift */,
 				920952F72690D07100BC902B /* SectionView.swift */,
+				920952F92690D86F00BC902B /* ProductItemView.swift */,
+				920952FF2690E22E00BC902B /* TitleView.swift */,
+				920953032690E7BF00BC902B /* BrandItemView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -161,6 +174,8 @@
 			children = (
 				929D37FA268FFC0300616D42 /* Sport.swift */,
 				920952F12690CB0300BC902B /* Category.swift */,
+				920952FB2690D8BD00BC902B /* Product.swift */,
+				920953012690E76400BC902B /* Brand.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -254,14 +269,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				920952FA2690D86F00BC902B /* ProductItemView.swift in Sources */,
+				920953022690E76400BC902B /* Brand.swift in Sources */,
 				929D37FF268FFCD700616D42 /* FeatureItemView.swift in Sources */,
 				929D3801268FFE9500616D42 /* FeatureTabView.swift in Sources */,
 				929D37FD268FFC5400616D42 /* CodableBundleExtension.swift in Sources */,
 				929D37FB268FFC0300616D42 /* Sport.swift in Sources */,
+				920953002690E22E00BC902B /* TitleView.swift in Sources */,
 				929D37D6268FE86C00616D42 /* ContentView.swift in Sources */,
 				929D37F9268FF70B00616D42 /* LogoView.swift in Sources */,
 				929D37F5268FEF9000616D42 /* FooterView.swift in Sources */,
 				920952F62690CE1E00BC902B /* CategoryGridView.swift in Sources */,
+				920952FC2690D8BD00BC902B /* Product.swift in Sources */,
+				920953042690E7BF00BC902B /* BrandItemView.swift in Sources */,
 				929D37D4268FE86C00616D42 /* FlyShoesApp.swift in Sources */,
 				929D37F3268FEE9B00616D42 /* Constant.swift in Sources */,
 				920952F82690D07100BC902B /* SectionView.swift in Sources */,
