@@ -1,0 +1,74 @@
+[
+  {
+    "id" : 1,
+    "name" : "Adidas",
+    "image" : "adidas",
+    "price" : 199,
+    "description" : "As a tennis athlete, your feet get you where you need to go, and your tennis shoes play an important role in owning your game. Sliding, jumping, dashing, cutting—it’s all part of the intense rallies you know well. Find freedom to create on the court in men’s tennis shoes of all colors and styles.",
+    "color" : [
+      0.61,
+      0.8,
+      0.89
+    ]
+  },
+  {
+    "id" : 2,
+    "name" : "Asics",
+    "image" : "asics",
+    "price" : 159,
+    "description" : "In sports like tennis where feet interact with hard surfaces like cemented courts, ample cushioning for shock absorption is much-needed to make the footwear comfortable. ASICS Men’s tennis shoes are built to provide support and grip while shuffling and are made with best quality material for durability. Choose your perfect pair from our wide range of tennis shoes online to be at the top of your game on the court.",
+    "color" : [
+      0.97,
+      0.87,
+      0.49
+    ]
+  },
+  {
+    "id" : 3,
+    "name" : "Nike",
+    "image" : "nike",
+    "price" : 189,
+    "description" : "Nike takes the renowned lightweight performance from the Vapor X, and makes it lighter and even more supportive. Offering a low to the ground ultra-speedy ride, Nike provides a supportive glove-like fit while keeping the weight at a minimum .",
+    "color" : [
+      0.53,
+      0.82,
+      0.63
+    ]
+  },
+  {
+    "id" : 4,
+    "name" : "Polo",
+    "image" : "polo",
+    "price" : 89,
+    "description" : "Inspired by classic court sneakers, the Sayer combines lightweight vulcanized construction with a clean-lined canvas upper and refined suede accents. This version is made with cotton and features bold logo lettering at the side.",
+    "color" : [
+      1,
+      0.56,
+      0.63
+    ]
+  },
+  {
+    "id" : 5,
+    "name" : "Reebok",
+    "image" : "reebok",
+    "price" : 364,
+    "description" : "To celebrate the 10th anniversary of the Nano, Reebok has reimagined this iconic shoe beloved by the training community. This men's version has a soft woven textile upper with targeted areas of support and stretch. Lightweight cushioning keeps you fast on your feet.",
+    "color" : [
+      0.74,
+      0.65,
+      0.5
+    ]
+  },
+  {
+    "id" : 7,
+    "name" : "Yonex",
+    "image" : "yonex",
+    "price" : 234,
+    "description" : "The YONEX Power Cushion absorbs shock then reverses the impact energy for smooth transfer into the next movement.Compared with urethane, the YONEX Power Cushion construction provides 3 times more shock absorbing power. When dropped from 7m above a Power Cushion sheet, an egg will bounce back 4m without damage.",
+    "color" : [
+      0.64,
+      0.51,
+      0.67
+    ]
+  }
+]
