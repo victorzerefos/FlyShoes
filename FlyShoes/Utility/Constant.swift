@@ -11,6 +11,7 @@ import SwiftUI
 let sports: [Sport] = Bundle.main.decode("sports.json")
 let categories: [Category] = Bundle.main.decode("category.json")
 let products: [Product] = Bundle.main.decode("product.json")
+let brands: [Brand] = Bundle.main.decode("brand.json")
 //: - COLOR
 let colorBackground: Color = Color("ColorBackground")
 let colorGray: Color = Color(UIColor.systemGray3)

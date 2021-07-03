@@ -16,6 +16,8 @@
 		920953002690E22E00BC902B /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920952FF2690E22E00BC902B /* TitleView.swift */; };
 		920953022690E76400BC902B /* Brand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920953012690E76400BC902B /* Brand.swift */; };
 		920953042690E7BF00BC902B /* BrandItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920953032690E7BF00BC902B /* BrandItemView.swift */; };
+		920953062690E97300BC902B /* BrandGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920953052690E97300BC902B /* BrandGridView.swift */; };
+		920953082690EC0600BC902B /* ProductGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920953072690EC0600BC902B /* ProductGridView.swift */; };
 		929D37D4268FE86C00616D42 /* FlyShoesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929D37D3268FE86C00616D42 /* FlyShoesApp.swift */; };
 		929D37D6268FE86C00616D42 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929D37D5268FE86C00616D42 /* ContentView.swift */; };
 		929D37D8268FE86E00616D42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 929D37D7268FE86E00616D42 /* Assets.xcassets */; };
@@ -44,6 +46,8 @@
 		920952FF2690E22E00BC902B /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
 		920953012690E76400BC902B /* Brand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Brand.swift; sourceTree = "<group>"; };
 		920953032690E7BF00BC902B /* BrandItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandItemView.swift; sourceTree = "<group>"; };
+		920953052690E97300BC902B /* BrandGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandGridView.swift; sourceTree = "<group>"; };
+		920953072690EC0600BC902B /* ProductGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductGridView.swift; sourceTree = "<group>"; };
 		929D37D0268FE86C00616D42 /* FlyShoes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlyShoes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		929D37D3268FE86C00616D42 /* FlyShoesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyShoesApp.swift; sourceTree = "<group>"; };
 		929D37D5268FE86C00616D42 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -156,8 +160,10 @@
 				920952F52690CE1E00BC902B /* CategoryGridView.swift */,
 				920952F72690D07100BC902B /* SectionView.swift */,
 				920952F92690D86F00BC902B /* ProductItemView.swift */,
+				920953072690EC0600BC902B /* ProductGridView.swift */,
 				920952FF2690E22E00BC902B /* TitleView.swift */,
 				920953032690E7BF00BC902B /* BrandItemView.swift */,
+				920953052690E97300BC902B /* BrandGridView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -275,6 +281,7 @@
 				929D3801268FFE9500616D42 /* FeatureTabView.swift in Sources */,
 				929D37FD268FFC5400616D42 /* CodableBundleExtension.swift in Sources */,
 				929D37FB268FFC0300616D42 /* Sport.swift in Sources */,
+				920953062690E97300BC902B /* BrandGridView.swift in Sources */,
 				920953002690E22E00BC902B /* TitleView.swift in Sources */,
 				929D37D6268FE86C00616D42 /* ContentView.swift in Sources */,
 				929D37F9268FF70B00616D42 /* LogoView.swift in Sources */,
@@ -287,6 +294,7 @@
 				920952F82690D07100BC902B /* SectionView.swift in Sources */,
 				920952F42690CBA900BC902B /* CategoryItemView.swift in Sources */,
 				929D37F7268FF50E00616D42 /* NavigationBarView.swift in Sources */,
+				920953082690EC0600BC902B /* ProductGridView.swift in Sources */,
 				920952F22690CB0300BC902B /* Category.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
