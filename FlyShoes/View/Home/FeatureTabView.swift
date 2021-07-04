@@ -9,12 +9,13 @@ import SwiftUI
 
 struct FeatureTabView: View {
     // MARK: - PROPERTIES
-    
+    let timer = Timer.publish(every: 3, on: .main, in: .common).autoconnect()
+    @State private var currentImageIndex = 0
     
     var body: some View {
         // MARK: - BODY
         
-        TabView {
+        TabView(selection: $currentImageIndex) {
             ForEach(sports) { sport in
                 FeatureItemView(sport: sport)
                     .padding(.top, 10)
@@ -22,6 +23,11 @@ struct FeatureTabView: View {
             }
         }  //: - TAB
         .tabViewStyle(PageTabViewStyle(indexDisplayMode: .always))
+        .onReceive(timer, perform: { _ in
+            withAnimation {
+                currentImageIndex = currentImageIndex < sports.count ? currentImageIndex + 1 : 0
+            }
+        })
     }
     
     
