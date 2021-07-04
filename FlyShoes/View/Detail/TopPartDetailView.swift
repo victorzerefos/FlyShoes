@@ -29,7 +29,6 @@ struct TopPartDetailView: View {
             Image(sampleProduct.image)
                 .resizable()
                 .scaledToFit()
-                .padding()
                 .offset(y: isAnimating ? 0 : -35)
         }) //: - HSTACK
         .onAppear(perform: {
