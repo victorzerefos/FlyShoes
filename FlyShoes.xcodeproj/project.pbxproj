@@ -18,6 +18,8 @@
 		920953042690E7BF00BC902B /* BrandItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920953032690E7BF00BC902B /* BrandItemView.swift */; };
 		920953062690E97300BC902B /* BrandGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920953052690E97300BC902B /* BrandGridView.swift */; };
 		920953082690EC0600BC902B /* ProductGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920953072690EC0600BC902B /* ProductGridView.swift */; };
+		9209530A2690EE7B00BC902B /* ProductDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920953092690EE7B00BC902B /* ProductDetailView.swift */; };
+		9209530C2690F08F00BC902B /* NavigationBarDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9209530B2690F08F00BC902B /* NavigationBarDetailView.swift */; };
 		929D37D4268FE86C00616D42 /* FlyShoesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929D37D3268FE86C00616D42 /* FlyShoesApp.swift */; };
 		929D37D6268FE86C00616D42 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929D37D5268FE86C00616D42 /* ContentView.swift */; };
 		929D37D8268FE86E00616D42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 929D37D7268FE86E00616D42 /* Assets.xcassets */; };
@@ -34,6 +36,8 @@
 		929D37FD268FFC5400616D42 /* CodableBundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929D37FC268FFC5400616D42 /* CodableBundleExtension.swift */; };
 		929D37FF268FFCD700616D42 /* FeatureItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929D37FE268FFCD700616D42 /* FeatureItemView.swift */; };
 		929D3801268FFE9500616D42 /* FeatureTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929D3800268FFE9500616D42 /* FeatureTabView.swift */; };
+		92F3AB1B2691CD7B00768CE7 /* HeaderDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F3AB1A2691CD7B00768CE7 /* HeaderDetailView.swift */; };
+		92F3AB1D2691CE6F00768CE7 /* TopPartDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F3AB1C2691CE6F00768CE7 /* TopPartDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +52,8 @@
 		920953032690E7BF00BC902B /* BrandItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandItemView.swift; sourceTree = "<group>"; };
 		920953052690E97300BC902B /* BrandGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandGridView.swift; sourceTree = "<group>"; };
 		920953072690EC0600BC902B /* ProductGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductGridView.swift; sourceTree = "<group>"; };
+		920953092690EE7B00BC902B /* ProductDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailView.swift; sourceTree = "<group>"; };
+		9209530B2690F08F00BC902B /* NavigationBarDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarDetailView.swift; sourceTree = "<group>"; };
 		929D37D0268FE86C00616D42 /* FlyShoes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlyShoes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		929D37D3268FE86C00616D42 /* FlyShoesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyShoesApp.swift; sourceTree = "<group>"; };
 		929D37D5268FE86C00616D42 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -66,6 +72,8 @@
 		929D37FC268FFC5400616D42 /* CodableBundleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableBundleExtension.swift; sourceTree = "<group>"; };
 		929D37FE268FFCD700616D42 /* FeatureItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureItemView.swift; sourceTree = "<group>"; };
 		929D3800268FFE9500616D42 /* FeatureTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureTabView.swift; sourceTree = "<group>"; };
+		92F3AB1A2691CD7B00768CE7 /* HeaderDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderDetailView.swift; sourceTree = "<group>"; };
+		92F3AB1C2691CE6F00768CE7 /* TopPartDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopPartDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,6 +179,10 @@
 		929D37EE268FEE4300616D42 /* Detail */ = {
 			isa = PBXGroup;
 			children = (
+				920953092690EE7B00BC902B /* ProductDetailView.swift */,
+				9209530B2690F08F00BC902B /* NavigationBarDetailView.swift */,
+				92F3AB1A2691CD7B00768CE7 /* HeaderDetailView.swift */,
+				92F3AB1C2691CE6F00768CE7 /* TopPartDetailView.swift */,
 			);
 			path = Detail;
 			sourceTree = "<group>";
@@ -283,11 +295,15 @@
 				929D37FB268FFC0300616D42 /* Sport.swift in Sources */,
 				920953062690E97300BC902B /* BrandGridView.swift in Sources */,
 				920953002690E22E00BC902B /* TitleView.swift in Sources */,
+				92F3AB1B2691CD7B00768CE7 /* HeaderDetailView.swift in Sources */,
+				92F3AB1D2691CE6F00768CE7 /* TopPartDetailView.swift in Sources */,
 				929D37D6268FE86C00616D42 /* ContentView.swift in Sources */,
 				929D37F9268FF70B00616D42 /* LogoView.swift in Sources */,
+				9209530C2690F08F00BC902B /* NavigationBarDetailView.swift in Sources */,
 				929D37F5268FEF9000616D42 /* FooterView.swift in Sources */,
 				920952F62690CE1E00BC902B /* CategoryGridView.swift in Sources */,
 				920952FC2690D8BD00BC902B /* Product.swift in Sources */,
+				9209530A2690EE7B00BC902B /* ProductDetailView.swift in Sources */,
 				920953042690E7BF00BC902B /* BrandItemView.swift in Sources */,
 				929D37D4268FE86C00616D42 /* FlyShoesApp.swift in Sources */,
 				929D37F3268FEE9B00616D42 /* Constant.swift in Sources */,
